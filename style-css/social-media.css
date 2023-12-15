@@ -1,0 +1,64 @@
+body{
+    font-family:Roboto, Arial; margin-left: 0; padding-bottom: 3000px;    
+}
+
+.header-container{
+    position: fixed;
+    top:0px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px; z-index: 100;
+}
+
+.inside-header-container{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.profile-picture-container{
+    width: 60px;
+}
+
+.profile-picture-container img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.profile-name{
+    flex: 1;
+    font-weight: bold;
+}
+
+.button-container{
+    padding-right: 50px;
+}
+
+.button-blue, .is-blue-button{
+    background-color: rgb(103, 103, 250);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.is-blue-button{
+    background-color: rgb(221, 212, 212);
+    color: black;
+    cursor:default;}
+
+.button-no-color{
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;font-weight: bold;
+    cursor: pointer;
+}
